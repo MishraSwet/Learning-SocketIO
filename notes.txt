@@ -1,0 +1,5 @@
+Events are initialized by the client
+for each event we emit it to the server and the server re-emits a response for the same event and now we catch the response and render the UI based on the response.
+A server is involved as it helps us maintain the state of our application through storage(local) or a remote database
+An Emit event is an action sent to all other members io.emit emits to all members in the server each client that is connected through a separate socket
+a broadcast however excludes emitting to the member who triggered the event
