@@ -3,3 +3,4 @@ for each event we emit it to the server and the server re-emits a response for t
 A server is involved as it helps us maintain the state of our application through storage(local) or a remote database
 An Emit event is an action sent to all other members io.emit emits to all members in the server each client that is connected through a separate socket
 a broadcast however excludes emitting to the member who triggered the event
+
